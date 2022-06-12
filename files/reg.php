@@ -48,8 +48,7 @@
 
         
         } 
-        $stmt->close();  # This is where  I have the error but I don't know how to fix it. If this line works, the data will be uploaded into the db'
-
+        $stmt->close();  # Closes the statement
     }
     else{
         echo 'Error occured';
